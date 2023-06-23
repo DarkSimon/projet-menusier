@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    flex-wrap: wrap;
+    height: auto;
+    margin:auto;
+}
+
+.container {
+    padding-top: 195px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+    margin: 10px;
+}
+
+.card-image {
+    background: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.car-1 {
+    background-image: url(./image/bandeau-filiere-01-batiment-et-efficacite-energetique-DSC_5532_0.webp);
+    background-size: 150%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.car-2 {
+    background-image : url( ./image/prix-installation-fenetre-bois-2.webp);
+    background-size: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.car-3 {
+    background-image : url(./image/b6a8b0707b30.jpg);
+    background-size:100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; 
+}
+
+.car-4{
+    background-image : url(./image/b6a8b0707b30.jpg); 
+    background-size:100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; 
+}
+
+.car-5{
+    background-image: url(./image/installation-de-fenetre-en-renovation.jpeg);
+}
+
+.car-6{
+    background-image: url(./image/chaiselongue.jpg);
+}
+
+
+
+
+.card h2{
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+#more{
+    display: none;
+}
+
+#more1{
+    display: none;
+}
+
+#more2{
+    display: none;
+}
+
+#more3{
+    display: none;
+}
+#more4{
+    display: none;
+}
+
+#more5{
+    display: none;
+}
+
+.myBtn  {
+    background: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+
+  
+}
+
+.card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+
+
+.JoinBtn:active .shadow{
+    display: none;
+}
